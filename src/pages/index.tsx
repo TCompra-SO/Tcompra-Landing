@@ -19,7 +19,7 @@ import Videos from "../modules/videos/Videos";
 const IndexPage = () => {
 
   /*
-   
+    <Videos />
   */
   return <>
 
@@ -33,7 +33,7 @@ const IndexPage = () => {
       <HowItWorksComponent />
       <PackagesComponent />
       <ContactComponent />
-      <Videos />
+     
       <QuestionsComponent />
       <FooterComponent />
     </MainBody>

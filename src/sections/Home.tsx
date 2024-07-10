@@ -21,7 +21,7 @@ const Home = () => {
               <ButtonsLink />
 
             </ContainerContentCss>
-            <VideoComponent width="600px" height="400px" videoId="8Ci94hur6Oc" autoplay={true} marginTop='4em' />
+            <VideoComponent width="500" height="400px" videoId="8Ci94hur6Oc" autoplay={true} marginTop='4em' />
           </ContainerContentCss>
         </GrowFromCenter>
 
