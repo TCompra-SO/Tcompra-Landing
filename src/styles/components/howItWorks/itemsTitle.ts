@@ -24,11 +24,10 @@ const ContenItem = styled.div<ContenItemProps>`
   animation-delay: 0.2s;
   text-align: ${({ $textalign }) => $textalign || "center"} !important;
   width: 23.5%;
-  position: relative; /* Agrega posición relativa para posicionar elementos hijos */
+  position: relative;
   display: flex;
-  flex-direction: column; /* Alinear elementos en columna */
-  align-items: ${({ $alignitems }) =>
-    $alignitems || "center"}; /* Centrar horizontalmente los elementos */
+  flex-direction: column;
+  align-items: ${({ $alignitems }) => $alignitems || "center"};
 
   @media (max-width: 768px) {
     width: 100%;
@@ -49,6 +48,7 @@ const ItemLink = styled.a`
   cursor: pointer;
   color: var(--header);
   transition: all 0.4s ease-in-out;
+  font-size: 22px;
   &:hover {
     color: var(--theme);
   }
@@ -65,17 +65,17 @@ const ItemText = styled.p`
 const ItemCircle = styled.div`
   width: 65px;
   height: 65px;
-  border-radius: 50%; /* Hace que el div sea un círculo */
-  border: 6px solid #bc1373; /* Borde celeste */
-  background-color: transparent; /* Fondo transparente */
+  border-radius: 50%;
+  border: 6px solid #bc1373;
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 50px; /* Ajusta el tamaño del número */
-  color: #bc1373; /* Color celeste para el número */
+  font-size: 50px;
+  color: #bc1373;
   font-weight: bold;
-  box-sizing: border-box; /* Asegura que el borde se incluya en las dimensiones */
-  margin-bottom: 10px; /* Espacio opcional entre el círculo y el título */
+  box-sizing: border-box;
+  margin-bottom: 10px;
 `;
 
 export {

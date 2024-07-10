@@ -33,13 +33,13 @@ const ImgBenefitsCss = styled.img`
   margin-top: 30px;
   width: 100%;
   border-radius: 0.9rem;
-  object-fit: cover; /* Asegura que la imagen se ajuste correctamente */
+  object-fit: cover;
 `;
 
 const ContentBenefitCss = styled.div`
   padding-top: 20px;
-  text-align: left; /* Mantener alineación del texto a la izquierda */
-  width: 100%; /* Asegura que el contenido ocupe todo el ancho del contenedor */
+  text-align: left;
+  width: 100%;
 `;
 
 const ContentTitleCss = styled.p`

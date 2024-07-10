@@ -64,6 +64,8 @@ const NavLink = styled.a`
   transition: color 0.3s ease, font-weight 0.4s ease-in-out;
   font-size: 16px;
   position: relative;
+  min-width: 50px; /* Reserva de espacio para evitar cambios de diseño */
+  min-height: 30px; /* Reserva de espacio para evitar cambios de diseño */
 
   &:hover {
     font-weight: 400;
@@ -96,6 +98,8 @@ const NavLinkLogo = styled.a`
   transition: color 0.3s ease, font-weight 0.4s ease-in-out;
   font-size: 16px;
   position: relative;
+  min-width: 50px; /* Reserva de espacio para evitar cambios de diseño */
+  min-height: 30px; /* Reserva de espacio para evitar cambios de diseño */
 
   &:hover: {
   }

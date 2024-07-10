@@ -15,19 +15,19 @@ const ItemsContent: React.FC = () => {
 
             <ContenItem>
                 <ItemCircle>1</ItemCircle>
-                <ItemTitleCss><ItemLink href="">Regístrate Gratis</ItemLink></ItemTitleCss>
+                <ItemLink href="">Regístrate Gratis</ItemLink>
                 <ItemText>Crea tu cuenta en pocos minutos con unos pocos clics</ItemText>
             </ContenItem>
 
             <ContenItem>
                 <ItemCircle>2</ItemCircle>
-                <ItemTitleCss><ItemLink href="">Explora y Publica</ItemLink></ItemTitleCss>
+                <ItemLink href="">Explora y Publica</ItemLink>
                 <ItemText>Encuentra lo que necesitas o publica tus requerimientos</ItemText>
             </ContenItem>
 
             <ContenItem>
                 <ItemCircle>3</ItemCircle>
-                <ItemTitleCss><ItemLink href="">Conecta y Vende</ItemLink></ItemTitleCss>
+                <ItemLink href="">Conecta y Vende</ItemLink>
                 <ItemText>Conéctate con usuarios y realiza transacciones de forma segura</ItemText>
             </ContenItem>
 

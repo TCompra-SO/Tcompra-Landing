@@ -14,8 +14,8 @@ const ImagesSectionCss = styled.div`
   margin-top: var(--bs-gutter-y);
 
   @media (max-width: 768px) {
-    display: block;
-    width: 100%;
+    visibility: hidden;
+    height: 0px;
   }
 `;
 

@@ -57,6 +57,9 @@ const NavigationComponent: React.FC = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  interface ImgLogoProps extends React.ImgHTMLAttributes<HTMLImageElement> {
+    srcSet: string;
+  }
 
   return (
     <Header>

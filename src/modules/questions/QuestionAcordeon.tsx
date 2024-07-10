@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCheckCircle, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
 import {
   AccordeonWrapper,
@@ -56,7 +56,7 @@ const QuestionAcordeon: React.FC = () => {
           <AccordeonTitle onClick={() => toggleAccordion(1)}>
             <AcordeonTitleText>¿Qué es Tcompra?</AcordeonTitleText>
             <IconContainer $isactive={activeIndex}>
-              <ExpandIcon $isactive={activeIndex}>&gt;</ExpandIcon>
+              <ExpandIcon $isactive={activeIndex}> <FontAwesomeIcon icon={faChevronDown} rotation={270} /></ExpandIcon>
             </IconContainer>
           </AccordeonTitle>
           <AccordeonContent $isactive={activeIndex}>
@@ -74,7 +74,7 @@ const QuestionAcordeon: React.FC = () => {
           <AccordeonTitle onClick={() => toggleAccordion1(1)}>
             <AcordeonTitleText>¿Tcompra es Gratuito?</AcordeonTitleText>
             <IconContainer $isactive={activeIndex1}>
-              <ExpandIcon $isactive={activeIndex1}>&gt;</ExpandIcon>
+              <ExpandIcon $isactive={activeIndex1}><FontAwesomeIcon icon={faChevronDown} rotation={270} /></ExpandIcon>
             </IconContainer>
           </AccordeonTitle>
           <AccordeonContent $isactive={activeIndex1}>
@@ -91,7 +91,7 @@ const QuestionAcordeon: React.FC = () => {
           <AccordeonTitle onClick={() => toggleAccordion2(1)}>
             <AcordeonTitleText>¿Es necesario tener una empresa para poder solicitar u ofrecer servicios?</AcordeonTitleText>
             <IconContainer $isactive={activeIndex2}>
-              <ExpandIcon $isactive={activeIndex2}>&gt;</ExpandIcon>
+              <ExpandIcon $isactive={activeIndex2}><FontAwesomeIcon icon={faChevronDown} rotation={270} /></ExpandIcon>
             </IconContainer>
           </AccordeonTitle>
           <AccordeonContent $isactive={activeIndex2}>
@@ -109,7 +109,7 @@ const QuestionAcordeon: React.FC = () => {
           <AccordeonTitle onClick={() => toggleAccordion3(1)}>
             <AcordeonTitleText>¿Qué tipo de productos y servicios encuentro en Tcompra?</AcordeonTitleText>
             <IconContainer $isactive={activeIndex3}>
-              <ExpandIcon $isactive={activeIndex3}>&gt;</ExpandIcon>
+              <ExpandIcon $isactive={activeIndex3}><FontAwesomeIcon icon={faChevronDown} rotation={270} /></ExpandIcon>
             </IconContainer>
           </AccordeonTitle>
           <AccordeonContent $isactive={activeIndex3}>
@@ -126,7 +126,7 @@ const QuestionAcordeon: React.FC = () => {
           <AccordeonTitle onClick={() => toggleAccordion4(1)}>
             <AcordeonTitleText>¿Cómo funciona Tcompra?</AcordeonTitleText>
             <IconContainer $isactive={activeIndex4}>
-              <ExpandIcon $isactive={activeIndex4}>&gt;</ExpandIcon>
+              <ExpandIcon $isactive={activeIndex4}><FontAwesomeIcon icon={faChevronDown} rotation={270} /></ExpandIcon>
             </IconContainer>
           </AccordeonTitle>
           <AccordeonContent $isactive={activeIndex4}>
@@ -145,7 +145,7 @@ const QuestionAcordeon: React.FC = () => {
           <AccordeonTitle onClick={() => toggleAccordion5(1)}>
             <AcordeonTitleText>¿Qué servicios ofrece Tcompra?</AcordeonTitleText>
             <IconContainer $isactive={activeIndex5}>
-              <ExpandIcon $isactive={activeIndex5}>&gt;</ExpandIcon>
+              <ExpandIcon $isactive={activeIndex5}><FontAwesomeIcon icon={faChevronDown} rotation={270} /></ExpandIcon>
             </IconContainer>
           </AccordeonTitle>
           <AccordeonContent $isactive={activeIndex5}>

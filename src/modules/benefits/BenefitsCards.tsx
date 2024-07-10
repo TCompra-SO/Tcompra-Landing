@@ -18,7 +18,7 @@ const BenefitsCards: React.FC = () => {
     return (
         <SectionCardCss>
             <CardBenefitCss>
-                <ImgBenefitsCss src={img1} alt="img" />
+                <ImgBenefitsCss src={img1} width='' height='' alt="img" />
                 <ContentBenefitCss>
                     <ContentTitleCss>Facilidad de Uso</ContentTitleCss>
                     <TextContentCss>Plataforma intuitiva y fácil de navegar con una interfaz amigable</TextContentCss>
@@ -26,7 +26,7 @@ const BenefitsCards: React.FC = () => {
             </CardBenefitCss>
 
             <CardBenefitCss>
-                <ImgBenefitsCss src={img2} alt="img" />
+                <ImgBenefitsCss src={img2} width='' height='' alt="img" />
                 <ContentBenefitCss>
                     <ContentTitleCss>Seguridad</ContentTitleCss>
                     <TextContentCss>Tu tranquilidad, nuestra prioridad: datos protegidos con seguridad</TextContentCss>
@@ -34,7 +34,7 @@ const BenefitsCards: React.FC = () => {
             </CardBenefitCss>
 
             <CardBenefitCss>
-                <ImgBenefitsCss src={img3} alt="img" />
+                <ImgBenefitsCss src={img3} width='' height='' alt="img" />
                 <ContentBenefitCss>
                     <ContentTitleCss>Soporte 24/7</ContentTitleCss>
                     <TextContentCss>Nuestro equipo de soporte está disponible en cualquier momento</TextContentCss>
@@ -42,7 +42,7 @@ const BenefitsCards: React.FC = () => {
             </CardBenefitCss>
 
             <CardBenefitCss>
-                <ImgBenefitsCss src={img4} alt="img" />
+                <ImgBenefitsCss src={img4} width='' height='' alt="img" />
                 <ContentBenefitCss>
                     <ContentTitleCss>Red Amplia</ContentTitleCss>
                     <TextContentCss>Acceso a una amplia red de compradores, vendedores y Stock´s</TextContentCss>

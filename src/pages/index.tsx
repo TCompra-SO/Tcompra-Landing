@@ -19,7 +19,7 @@ import Videos from "../modules/videos/Videos";
 const IndexPage = () => {
 
   /*
-   
+    <Videos />
   */
   return <>
 

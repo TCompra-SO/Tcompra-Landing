@@ -18,6 +18,7 @@ const VideoComponent: React.FC<VideoComponentProps> = ({ width, height, videoId,
                 src={`https://www.youtube.com/embed/${videoId}${autoplay ? '?autoplay=1' : ''}`} // Añade autoplay si es true
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
+                title='Video'
             />
         </Content>
     );

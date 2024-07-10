@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import icono from './images/logo/favicon.svg';
-import font from './utils/fonts/rubik/Rubik-VariableFont_wght.ttf'
+import font from './utils/fonts/rubik/Rubik-VariableFont_wght.ttf';
+
 export default function HTML(props) {
     return (
         <html lang="es" {...props.htmlAttributes}>
@@ -11,6 +12,18 @@ export default function HTML(props) {
                 <meta name="description" content="TCompra - Facilitamos la Compra y Venta de Bienes y Servicios. Encuentra productos, servicios y más en TCompra.com." />
                 <link rel="icon" href={icono} type="image/svg+xml" />
                 <link rel="preload" href={font} as="font" type="font/ttf" crossOrigin="anonymous" />
+
+                <style>
+                    {`
+                    @font-face {
+                        font-family: 'Rubik';
+                        src: url(${font}) format('truetype');
+                        font-weight: 400 700;
+                        font-style: normal;
+                        font-display: swap;
+                    }
+                    `}
+                </style>
 
                 <title>TCompra.com</title>
                 <script type="application/ld+json">

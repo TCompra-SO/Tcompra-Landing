@@ -11,6 +11,7 @@ import {
   faEnvelope as fasFaEnvelope,
   faPhone as fasFaPhone,
   faCircleCheck as fasFaCircleCheck,
+  faChevronDown as fasFaChevronDown, // Importa el icono faChevronDown
 } from "@fortawesome/free-solid-svg-icons";
 
 export const faUser: IconDefinition = fasFaUser;
@@ -22,7 +23,8 @@ export const faShoppingBasket: IconDefinition = fasFaShoppingBasket;
 export const faUserTie: IconDefinition = fasFaUserTie;
 export const faEnvelope: IconDefinition = fasFaEnvelope;
 export const faPhone: IconDefinition = fasFaPhone;
-export const faCircleChek: IconDefinition = fasFaCircleCheck;
+export const faCircleCheck: IconDefinition = fasFaCircleCheck;
+export const faChevronDown: IconDefinition = fasFaChevronDown;
 
 library.add(
   fasFaUser,
@@ -34,5 +36,6 @@ library.add(
   fasFaUserTie,
   fasFaEnvelope,
   fasFaPhone,
-  fasFaCircleCheck
+  fasFaCircleCheck,
+  fasFaChevronDown
 );

@@ -16,9 +16,9 @@ const SectionCardCss = styled.div`
 const InfoCardCss = styled.div`
   width: 50%;
   display: flex;
-  flex-direction: column; /* Alinear los elementos en columna */
-  align-items: left; /* Centrar horizontalmente los elementos */
-  justify-content: center; /* Centrar verticalmente los elementos */
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
   @media (max-width: 768px) {
     width: 100%;
     margin-bottom: 4em;
@@ -29,7 +29,12 @@ const ImgCardCss = styled.div`
   width: 25%;
   display: flex;
   align-items: center;
-  justify-content: center; /* Asegura que el contenido esté centrado horizontalmente */
+  justify-content: center;
+  @media (max-width: 768px) {
+    width: 100%;
+    padding-bottom: 7em;
+    padding-top: 3em;
+  }
 `;
 
 const TextCardCss = styled.p`
@@ -49,6 +54,7 @@ const ButtonCardCss = styled.div`
   justify-content: flex-end; /* Alinea el botón a la derecha */
   @media (max-width: 768px) {
     width: 100%;
+    justify-content: center;
   }
 `;
 

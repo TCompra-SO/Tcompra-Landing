@@ -14,6 +14,9 @@ const CardPackageCss = styled.div<CardPackageProps>`
  
     @media (max-width: 768px) {
     width: 100%;
+     padding: 10px 10px;
+     margin-bottom:1em;
+    
    
 `;
 

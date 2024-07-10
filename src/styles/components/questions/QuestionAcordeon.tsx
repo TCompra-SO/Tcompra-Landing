@@ -53,22 +53,22 @@ interface IconContainerProps {
 
 export const IconContainer = styled.div<IconContainerProps>`
   background-color: ${({ $isactive }) => ($isactive === 1 ? 'var(--theme)' : '#fff')};
-  width: 30px;
-  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   transition: background-color 0.5s ease;
+  padding:4px 4px 4px 4px;
 `;
 interface ExpandIconProps {
   $isactive: number;
 }
 export const ExpandIcon = styled.div<ExpandIconProps>`
   color: ${({ $isactive }) => ($isactive === 1 ? 'var(--white)' : 'var(--theme)')};
-  font-size: 1.2em;
+  font-size: 1em;
   transition: transform 0.5s ease;
-  transform: ${({ $isactive }) => ($isactive === 1 ? 'rotate(90deg)' : 'rotate(0)')};
+  transform: ${({ $isactive }) => ($isactive === 1 ? 'rotate(90deg)' : 'rotate(0deg)')};
+  padding:2px 2px 2px 2px;
 `;
 
 export const AcordeonContentText = styled.p`

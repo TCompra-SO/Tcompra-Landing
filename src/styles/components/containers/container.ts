@@ -50,6 +50,7 @@ interface MainBodyProps {
   $marginbottom?: string;
   $flexdirection?: "row" | "column"; // Nueva propiedad para flex-direction
   $gap?: string; // Nueva propiedad para gap
+  $displayResponsive?: string;
 }
 
 // Define el componente styled con las props extendidas
@@ -66,6 +67,7 @@ const ContainerContentCss = styled.div<MainBodyProps>`
 
   @media (max-width: 768px) {
     display: block;
+    display: ${(props) => props.$displayResponsive || "block"};
     gap: 1.5em;
   }
 `;
